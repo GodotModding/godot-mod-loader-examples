@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://mods-unpacked/AuthorName-ModName/translations/modname.en.translation" ]
+
+source_file="res://mods-unpacked/AuthorName-ModName/translations/modname.csv"
+dest_files=[ "res://mods-unpacked/AuthorName-ModName/translations/modname.en.translation" ]
+
+[params]
+
+compress=true
+delimiter=0
