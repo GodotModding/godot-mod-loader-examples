@@ -1,5 +1,5 @@
 keys,en
-MODNAME_EXAMPLE_STRING,This is an example. If you use "EXAMPLE_STRING" for things like character names it will show this text instead
+MODNAME_EXAMPLE_STRING,This is an example. If you use 'EXAMPLE_STRING' for things like character names it will show this text instead
 MODNAME_READY_TEXT,This mod's translation file is working correctly!
 MODNAME_COMMA_NOTE,"If your string contains a comma like this, you need to wrap the string in double quotes, otherwise it a) won't load, and b) will stop any strings below it from loading."
 MODNAME_NOTE,Note that the only custom file in this directory is 'modname.csv'. The other files are generated automatically when you add a CSV to the Godot editor's filesystem
