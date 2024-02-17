@@ -16,7 +16,7 @@ func _ready()->void:
 
 	# ! Note that you won't see this in the log immediately, because main.gd
 	# ! doesn't run until you start a run
-	ModLoaderUtils.log_info("Ready", MYMOD_LOG)
+	ModLoaderLog.info("Ready", MYMOD_LOG)
 
 	# ! These are custom functions. It will run after vanilla's own _ready is
 	# ! finished
@@ -45,4 +45,4 @@ func _modname_my_custom_edit_1()->void: # ! `void` means it doesn't return anyth
 
 
 func _modname_my_custom_edit_2()->void:
-	ModLoaderUtils.log_info("Main.gd has been modified", MYMOD_LOG)
+	ModLoaderLog.info("Main.gd has been modified", MYMOD_LOG)
